@@ -1,0 +1,179 @@
+body{
+margin:auto;
+}
+.container2{
+  display: flex;
+}
+/*.top{
+  background-color:blue;
+  margin-left: -6px;
+  margin-top: -10px;
+  width:1500px;
+  height:70px;
+}
+*/
+@media screen and (max-width: 700px) {
+  .container1 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 200px) {
+  .container2 {
+    flex-direction: column;
+  }
+}
+
+.container1{
+  display: flex;
+}
+.box1{
+background-color: black;
+width: 370px;
+height: 800px;
+margin-left: -10px;
+margin-top: -5px;
+margin-bottom: -10px;
+}
+.box2{
+background-color: #4BD1A0;
+width: 370px;
+height: 800px;
+margin-left: -10px;
+margin-top: -5px;
+color: red;
+text-align:center;
+margin-bottom: -10px;
+}
+.box3{
+  flex-direction: column;
+background-color: #2ABED1;
+width: 370px;
+height: 800px;
+margin-left: -10px;
+margin-top: -5px;
+margin-bottom: -10px;
+}
+.box4{
+  width: 370px;
+  height: 800px;
+background-color: #BA5BA6;
+margin-top: -5px;
+margin-bottom: -10px;
+}
+/*.box5{
+background-color: black;
+width: 310px;
+height: 800px;
+margin-left: -10px;
+margin-top: -5px;
+margin-bottom: -10px;
+}*/
+#limited{
+  padding-top: 10px;
+    color: white;
+}
+#limitedti{
+  padding-top: 55px;
+  text-align: center;
+  font-size: 30px;
+    colo  r: white;
+}
+#upkeepli{
+  padding-top: 10px;
+  text-align: left;
+  margin-left: -10px;
+  margin-right: 15px;
+  color: white;
+}
+#upkeepti{
+  padding-top: 55px;
+  text-align: center;
+  font-size: 30px;
+    color: white;
+}
+#exli{
+  padding-top: 10px;
+  text-align: left;
+  margin-left: -10px;
+  margin-right: 15px;
+    color: white;
+}
+#exti{
+  padding-top: 55px;
+  text-align: center;
+  font-size: 30px;
+    color: white;
+}
+#bossli{
+  padding-top: 10px;
+  text-align: left;
+  margin-left: -10px;
+  margin-right: 15px;
+    color: white;
+    font-size: 19px;
+}
+#carpetti{
+  padding-top: 55px;
+  text-align: center;
+  font-size: 45px;
+    color: white;
+    margin-right: 15px;
+}
+
+#packageli{
+  padding-top: 10px;
+  text-align: left;
+  margin-left: -10px;
+  margin-right: 15px;
+    color: white;
+}
+#packageti{
+  padding-top: 5px;
+  text-align: center;
+  font-size: 30px;
+    color: white;
+    margin-right: 15px;
+}
+#Seasonali{
+  padding-top: 5px;
+  text-align: center;
+    color: white;
+    margin-right: 40px;
+    margin-top: -20px;
+}
+#Seasonalti{
+  padding-top: 5px;
+  text-align: center;
+  font-size: 30px;
+    color: white;
+}
+#enginebayli{
+  padding-top: -10px;
+  text-align: left;
+  margin-left:50px;
+  margin-right: 15px;
+  margin-top: -10px;
+    color: white;
+}
+#enginebay{
+  padding-top: 5px;
+  text-align: center;
+  font-size: 30px;
+    color: white;
+  }
+.sechead{
+  margin-top: -60px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 17px
+}
+.miamihead{
+  margin-top: -40px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 17px
+}
